@@ -1,0 +1,178 @@
+body,html{
+    height: 100%;
+    background:url("../../img/11.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
+.nav{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100px;
+}
+.nav li{
+    line-height: 30px;
+    color: #fff;
+    text-align: right;
+    position: relative;
+    left: -80px;
+}
+.nav li span{
+    margin:8px 0 0 15px;
+}
+.nav li a{
+    color: orangered;
+}
+.nav li span:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.everyday span{
+    color: #fff;
+    margin: 9px 0 0 9px ;
+}
+.everyday span:hover{
+    color: chartreuse;
+    cursor: pointer;
+}
+.everyday-say{
+    width: 160px;
+    border: solid 1px #999;
+    position: relative;
+    top: 10px;
+    left: 2px;
+}
+.everyday-say:before{
+    position: absolute;
+    top: -7px;
+    left: 6px;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #999;
+    border-left: 6px solid transparent;
+    content: '';
+}
+.everyday-say h3{
+    line-height: 20px;
+    font-size: 12px;
+    padding-left: 5px;
+    border-bottom: solid 1px #999;
+    color: rgb(148, 147, 146);
+    border-radius: 10px;
+}
+.everyday-say p{
+    text-indent: 1rem;
+    line-height: 2.0;
+    padding:5px;
+    color: #D0C9C9;
+}
+.note-wrap{
+    width: 990px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.g-Notes{
+    width: 140px;
+    height: 200px;
+    border: solid 1px #999;
+    float: left;
+    margin: 0 0 20px 30px;
+    position: relative;
+    overflow: hidden;
+}
+.g-Notes:hover{
+    box-shadow:3px 1px 16px #888888;
+    cursor: pointer;
+}
+.g-Notes:hover .tip-small{
+    display: block;
+}
+.g-Notes-title{
+    line-height: 30px;
+    padding-left: 10px;
+    border-bottom: solid 1px #999;
+    color: #999999;
+    border-radius: 13px;
+    position: relative;
+}
+.tip-small{
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    display: none;
+}
+.tip-small:hover{
+    transition: all 1s;
+    color: orangered;
+    transform:rotate(360deg);
+    -webkit-transform:rotate(360deg); 
+}
+.g-Notes p{
+    padding:10px 5px;
+    text-indent: 1rem;
+    line-height: 1.5;
+    color: silver;
+}
+.g-Notes-footer{
+    line-height: 30px;
+    padding-left: 10px;
+    margin-left: -10px;
+    width: 100%;
+    border-top: solid 1px #999;
+    position: absolute;
+    bottom: 0;
+    text-indent: 1rem;
+}
+.g-Notes-change{
+    position: absolute;
+    width: 120px;
+    bottom: 45px;
+    height: 30px;
+    left: 50%;
+    margin-left: -60px;
+}
+.g-Notes-change span{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-left: 15px;
+    border-radius: 100%;
+    border: solid 1px #fff;
+}
+.g-Notes-change span:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+.g-note-show{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    border: solid 1px #fff;
+    top:50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+    -webkit-transform:scale(0)
+}
+.change-bg{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    width: 40px;
+}
+.change-bg img{
+    width: 40px;
+    height: 40px;
+}
+.change-bg img:hover{
+    cursor: pointer;
+    transition: all 2s;
+    transform:rotate(1440deg);
+    -webkit-transform:rotate(1440deg);
+}
+.change-bg p{
+    height: 60px;
+    width: 5px;
+    background-color: #fff;
+    margin: -22px auto 0 auto;
+}
